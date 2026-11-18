@@ -5,7 +5,7 @@ import { AppShell } from '@/components/layout/AppShell';
 import { profile } from '@/content/profile';
 import { projects } from '@/content/projects';
 import { skillCategories } from '@/content/skills';
-import { pageVariants, staggerContainer, staggerItem } from '@/components/motion/variants';
+import { pageVariants } from '@/components/motion/variants';
 
 export function AboutPage() {
   return (

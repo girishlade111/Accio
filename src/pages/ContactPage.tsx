@@ -1,6 +1,7 @@
 import { useState, useId } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { MessageSquare, ChevronDown, CheckCircle2, AlertCircle, Github, Linkedin, Instagram, Code } from 'lucide-react';
+import { MessageSquare, ChevronDown, CheckCircle2, AlertCircle } from 'lucide-react';
+import { GithubIcon, LinkedinIcon, InstagramIcon, CodepenIcon } from '@/components/ui/Icons';
 import { AppShell } from '@/components/layout/AppShell';
 import { faqs } from '@/content/faq';
 import { profile } from '@/content/profile';
