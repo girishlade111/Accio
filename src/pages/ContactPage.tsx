@@ -252,7 +252,7 @@ export function ContactPage() {
             aria-label="GitHub Profile"
             className="hover:text-white transition-colors"
           >
-            <Github size={16} />
+            <GithubIcon size={16} />
           </a>
           <a
             href={profile.social.linkedin}
@@ -261,7 +261,7 @@ export function ContactPage() {
             aria-label="LinkedIn Profile"
             className="hover:text-white transition-colors"
           >
-            <Linkedin size={16} />
+            <LinkedinIcon size={16} />
           </a>
           <a
             href={profile.social.instagram}
@@ -270,7 +270,7 @@ export function ContactPage() {
             aria-label="Instagram Profile"
             className="hover:text-white transition-colors"
           >
-            <Instagram size={16} />
+            <InstagramIcon size={16} />
           </a>
           <a
             href={profile.social.codepen}
@@ -279,7 +279,7 @@ export function ContactPage() {
             aria-label="CodePen Profile"
             className="hover:text-white transition-colors"
           >
-            <Code size={16} />
+            <CodepenIcon size={16} />
           </a>
         </section>
       </motion.article>
