@@ -1,6 +1,7 @@
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { motion } from 'motion/react';
-import { ArrowLeft, ArrowUpRight, ExternalLink, Github, CheckCircle2, AlertCircle } from 'lucide-react';
+import { ArrowLeft, ExternalLink, CheckCircle2, AlertCircle } from 'lucide-react';
+import { GithubIcon } from '@/components/ui/Icons';
 import { AppShell } from '@/components/layout/AppShell';
 import { projects } from '@/content/projects';
 import { ProjectCardVisual } from '@/components/projects/ProjectCardVisual';
@@ -89,7 +90,7 @@ export function ProjectDetailPage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full border border-black/10 dark:border-white/10 hover:bg-black/5 dark:hover:bg-white/5 text-xs font-medium transition-all"
               >
-                <Github size={13} />
+                <GithubIcon size={13} />
                 <span>Source</span>
               </a>
             )}
