@@ -1,0 +1,709 @@
+{
+  "axeViolations": [
+    {
+      "route": "/",
+      "theme": "dark",
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        "<div class=\"absolute bottom-8 left-1/2 -translate-x-1/2 text-[11px] text-[#555555] tracking-wider uppercase font-mono\">Pune, India · Independent Developer</div>"
+      ]
+    },
+    {
+      "route": "/",
+      "theme": "light",
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        "<div class=\"absolute bottom-8 left-1/2 -translate-x-1/2 text-[11px] text-[#555555] tracking-wider uppercase font-mono\">Pune, India · Independent Developer</div>"
+      ]
+    },
+    {
+      "route": "/about",
+      "theme": "dark",
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        "<span>Hello, I'm Girish a</span>",
+        "<span>designer</span>",
+        "<span>and</span>"
+      ]
+    },
+    {
+      "route": "/about",
+      "theme": "light",
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        "<span>Hello, I'm Girish a</span>",
+        "<span>designer</span>",
+        "<span>and</span>"
+      ]
+    },
+    {
+      "route": "/projects",
+      "theme": "dark",
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        "<span class=\"text-[11px] font-mono uppercase tracking-widest text-neutral-500 font-semibold\">Portfolio Gallery</span>",
+        "<p class=\"text-sm text-neutral-500 dark:text-neutral-400 mt-2 leading-relaxed\">A visual showcase of browser IDEs, local-first document processors, productivity utilities, and interactive web tools.</p>",
+        "<p class=\"text-xs text-neutral-500 dark:text-neutral-400 truncate mt-0.5\">Developer Ecosystem · Product Directory</p>"
+      ]
+    },
+    {
+      "route": "/projects",
+      "theme": "dark",
+      "id": "heading-order",
+      "impact": "moderate",
+      "description": "Ensure the order of headings is semantically correct",
+      "nodes": [
+        "<h3 class=\"text-sm font-semibold text-neutral-900 dark:text-neutral-100 truncate group-hover:text-blue-500 transition-colors\">LadeStack</h3>"
+      ]
+    },
+    {
+      "route": "/projects",
+      "theme": "dark",
+      "id": "label-content-name-mismatch",
+      "impact": "serious",
+      "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+      "nodes": [
+        "<a aria-label=\"View project details for LadeStack\" class=\"block w-full h-full p-2 outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-3xl\" href=\"/projects/ladestack\" data-discover=\"true\">",
+        "<a aria-label=\"View project details for GB Coder\" class=\"block w-full h-full p-2 outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-3xl\" href=\"/projects/gb-coder\" data-discover=\"true\">",
+        "<a aria-label=\"View project details for LS PDF\" class=\"block w-full h-full p-2 outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-3xl\" href=\"/projects/ls-pdf\" data-discover=\"true\">"
+      ]
+    },
+    {
+      "route": "/projects",
+      "theme": "light",
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        "<span class=\"text-[11px] font-mono uppercase tracking-widest text-neutral-500 font-semibold\">Portfolio Gallery</span>",
+        "<p class=\"text-sm text-neutral-500 dark:text-neutral-400 mt-2 leading-relaxed\">A visual showcase of browser IDEs, local-first document processors, productivity utilities, and interactive web tools.</p>",
+        "<p class=\"text-xs text-neutral-500 dark:text-neutral-400 truncate mt-0.5\">Developer Ecosystem · Product Directory</p>"
+      ]
+    },
+    {
+      "route": "/projects",
+      "theme": "light",
+      "id": "label-content-name-mismatch",
+      "impact": "serious",
+      "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+      "nodes": [
+        "<a aria-label=\"View project details for LadeStack\" class=\"block w-full h-full p-2 outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-3xl\" href=\"/projects/ladestack\" data-discover=\"true\">",
+        "<a aria-label=\"View project details for GB Coder\" class=\"block w-full h-full p-2 outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-3xl\" href=\"/projects/gb-coder\" data-discover=\"true\">",
+        "<a aria-label=\"View project details for LS PDF\" class=\"block w-full h-full p-2 outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-3xl\" href=\"/projects/ls-pdf\" data-discover=\"true\">"
+      ]
+    },
+    {
+      "route": "/projects/ladestack",
+      "theme": "dark",
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        "<span>Back to Projects</span>",
+        "<span class=\"text-[11px] font-mono uppercase tracking-wider text-neutral-500\">Developer Ecosystem · Product Directory</span>",
+        "<h1 class=\"text-3xl sm:text-4xl font-bold tracking-tight text-neutral-900 dark:text-white\">LadeStack</h1>"
+      ]
+    },
+    {
+      "route": "/projects/ladestack",
+      "theme": "dark",
+      "id": "heading-order",
+      "impact": "moderate",
+      "description": "Ensure the order of headings is semantically correct",
+      "nodes": [
+        "<h4 class=\"text-sm font-semibold text-neutral-900 dark:text-white mt-1 leading-snug\">Find the Right Tool for a Specific Task</h4>"
+      ]
+    },
+    {
+      "route": "/projects/ladestack",
+      "theme": "light",
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        "<span>Back to Projects</span>",
+        "<span class=\"text-[11px] font-mono uppercase tracking-wider text-neutral-500\">Developer Ecosystem · Product Directory</span>",
+        "<h1 class=\"text-3xl sm:text-4xl font-bold tracking-tight text-neutral-900 dark:text-white\">LadeStack</h1>"
+      ]
+    },
+    {
+      "route": "/skills",
+      "theme": "dark",
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        "<span>Back to About</span>",
+        "<span class=\"text-[11px] font-mono uppercase tracking-widest text-neutral-500 font-semibold\">Technical Matrix</span>",
+        "<h1 class=\"text-2xl sm:text-3xl font-semibold mt-2 tracking-tight text-neutral-900 dark:text-white\">Design thinking meets hands-on engineering.</h1>"
+      ]
+    },
+    {
+      "route": "/skills",
+      "theme": "light",
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        "<span>Back to About</span>",
+        "<span class=\"text-[11px] font-mono uppercase tracking-widest text-neutral-500 font-semibold\">Technical Matrix</span>",
+        "<h1 class=\"text-2xl sm:text-3xl font-semibold mt-2 tracking-tight text-neutral-900 dark:text-white\">Design thinking meets hands-on engineering.</h1>"
+      ]
+    },
+    {
+      "route": "/contact",
+      "theme": "dark",
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        "<span>Get in</span>",
+        "<span>touch</span>",
+        "<p class=\"text-xs sm:text-sm text-neutral-500 dark:text-neutral-400 mt-3 leading-relaxed\">"
+      ]
+    },
+    {
+      "route": "/contact",
+      "theme": "dark",
+      "id": "link-in-text-block",
+      "impact": "serious",
+      "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+      "nodes": [
+        "<a href=\"mailto:admin@ladestack.in\" class=\"text-blue-500 hover:underline\">admin@ladestack.in</a>"
+      ]
+    },
+    {
+      "route": "/contact",
+      "theme": "light",
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        "<span>Get in</span>",
+        "<span>touch</span>",
+        "<p class=\"text-xs sm:text-sm text-neutral-500 dark:text-neutral-400 mt-3 leading-relaxed\">"
+      ]
+    },
+    {
+      "route": "/contact",
+      "theme": "light",
+      "id": "link-in-text-block",
+      "impact": "serious",
+      "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+      "nodes": [
+        "<a href=\"mailto:admin@ladestack.in\" class=\"text-blue-500 hover:underline\">admin@ladestack.in</a>"
+      ]
+    },
+    {
+      "route": "/non-existent-page",
+      "theme": "dark",
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        "<span class=\"text-xs font-mono text-neutral-500 uppercase tracking-widest font-semibold\">Error 404</span>",
+        "<h1 class=\"text-3xl sm:text-4xl font-bold tracking-tight text-neutral-900 dark:text-white mt-2\">Page not found.</h1>",
+        "<p class=\"text-xs sm:text-sm text-neutral-500 mt-2 max-w-sm\">The page may have moved, or the link may be incomplete.</p>"
+      ]
+    },
+    {
+      "route": "/non-existent-page",
+      "theme": "light",
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        "<span class=\"text-xs font-mono text-neutral-500 uppercase tracking-widest font-semibold\">Error 404</span>",
+        "<h1 class=\"text-3xl sm:text-4xl font-bold tracking-tight text-neutral-900 dark:text-white mt-2\">Page not found.</h1>",
+        "<p class=\"text-xs sm:text-sm text-neutral-500 mt-2 max-w-sm\">The page may have moved, or the link may be incomplete.</p>"
+      ]
+    }
+  ],
+  "metadataIssues": [
+    {
+      "route": "/",
+      "issue": "Missing OpenGraph meta tags (og:title, og:description, og:url, og:image)."
+    },
+    {
+      "route": "/about",
+      "issue": "Route does not dynamically update document <title> on navigation.",
+      "currentTitle": "Girish Lade — UI/UX Designer, Full-Stack Developer & LadeStack Founder"
+    },
+    {
+      "route": "/about",
+      "issue": "Missing OpenGraph meta tags (og:title, og:description, og:url, og:image)."
+    },
+    {
+      "route": "/projects",
+      "issue": "Route does not dynamically update document <title> on navigation.",
+      "currentTitle": "Girish Lade — UI/UX Designer, Full-Stack Developer & LadeStack Founder"
+    },
+    {
+      "route": "/projects",
+      "issue": "Missing OpenGraph meta tags (og:title, og:description, og:url, og:image)."
+    },
+    {
+      "route": "/projects/ladestack",
+      "issue": "Route does not dynamically update document <title> on navigation.",
+      "currentTitle": "Girish Lade — UI/UX Designer, Full-Stack Developer & LadeStack Founder"
+    },
+    {
+      "route": "/projects/ladestack",
+      "issue": "Missing OpenGraph meta tags (og:title, og:description, og:url, og:image)."
+    },
+    {
+      "route": "/skills",
+      "issue": "Route does not dynamically update document <title> on navigation.",
+      "currentTitle": "Girish Lade — UI/UX Designer, Full-Stack Developer & LadeStack Founder"
+    },
+    {
+      "route": "/skills",
+      "issue": "Missing OpenGraph meta tags (og:title, og:description, og:url, og:image)."
+    },
+    {
+      "route": "/contact",
+      "issue": "Route does not dynamically update document <title> on navigation.",
+      "currentTitle": "Girish Lade — UI/UX Designer, Full-Stack Developer & LadeStack Founder"
+    },
+    {
+      "route": "/contact",
+      "issue": "Missing OpenGraph meta tags (og:title, og:description, og:url, og:image)."
+    },
+    {
+      "route": "/non-existent-page",
+      "issue": "Route does not dynamically update document <title> on navigation.",
+      "currentTitle": "Girish Lade — UI/UX Designer, Full-Stack Developer & LadeStack Founder"
+    },
+    {
+      "route": "/non-existent-page",
+      "issue": "Missing OpenGraph meta tags (og:title, og:description, og:url, og:image)."
+    }
+  ],
+  "consoleErrors": [],
+  "touchTargetIssues": [
+    {
+      "route": "/",
+      "smallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "width": 32,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "route": "/about",
+      "smallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "width": 32,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "LadeStackPublic Brand",
+          "width": 327,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "GB CoderOpen Source",
+          "width": 327,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "LS PDFRepository-Documented",
+          "width": 327,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "MD2PDFRepository-Documented",
+          "width": 327,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Bharat Land ConverterPublic Br",
+          "width": 327,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Swift ResumeRepository-Documen",
+          "width": 327,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "LS Image CompressorRepository-",
+          "width": 327,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "GameHubOpen Source",
+          "width": 327,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "LadeStack DriveExperimental",
+          "width": 327,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "LadeStack Labs & ExplorationsE",
+          "width": 327,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "View full technical skills mat",
+          "width": 186,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Home",
+          "width": 35,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Projects",
+          "width": 48,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "About",
+          "width": 35,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Skills",
+          "width": 29,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Contact",
+          "width": 47,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "GitHub",
+          "width": 41,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "LinkedIn",
+          "width": 48,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "route": "/projects",
+      "smallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "width": 32,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "github.com/girishlade111",
+          "width": 173,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "linkedin.com/in/girish-lade",
+          "width": 194,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Home",
+          "width": 35,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Projects",
+          "width": 48,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "About",
+          "width": 35,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Skills",
+          "width": 29,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Contact",
+          "width": 47,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "GitHub",
+          "width": 41,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "LinkedIn",
+          "width": 48,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "route": "/projects/ladestack",
+      "smallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "width": 32,
+          "height": 16
+        },
+        {
+          "tag": "button",
+          "text": "Back to Projects",
+          "width": 113,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "NextGB Coder →",
+          "width": 69,
+          "height": 31
+        },
+        {
+          "tag": "a",
+          "text": "Home",
+          "width": 35,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Projects",
+          "width": 48,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "About",
+          "width": 35,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Skills",
+          "width": 29,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Contact",
+          "width": 47,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "GitHub",
+          "width": 41,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "LinkedIn",
+          "width": 48,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "route": "/skills",
+      "smallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "width": 32,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Back to About",
+          "width": 101,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Home",
+          "width": 35,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Projects",
+          "width": 48,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "About",
+          "width": 35,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Skills",
+          "width": 29,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Contact",
+          "width": 47,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "GitHub",
+          "width": 41,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "LinkedIn",
+          "width": 48,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "route": "/contact",
+      "smallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "width": 32,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "admin@ladestack.in",
+          "width": 116,
+          "height": 15
+        },
+        {
+          "tag": "a",
+          "text": "GitHub Profile",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "LinkedIn Profile",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Instagram Profile",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "CodePen Profile",
+          "width": 16,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Home",
+          "width": 35,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Projects",
+          "width": 48,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "About",
+          "width": 35,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Skills",
+          "width": 29,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Contact",
+          "width": 47,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "GitHub",
+          "width": 41,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "LinkedIn",
+          "width": 48,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "route": "/non-existent-page",
+      "smallTargets": [
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "width": 32,
+          "height": 16
+        }
+      ]
+    }
+  ],
+  "contrastIssues": []
+}

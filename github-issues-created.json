@@ -1,0 +1,73 @@
+[
+  {
+    "title": "fix(security): resolve high-severity ReDoS vulnerability in transitive dependency (picomatch / GHSA-fc5q-39xc-vjpf)",
+    "category": "Security & Dependencies",
+    "labels": [
+      "security",
+      "bug"
+    ],
+    "url": "https://github.com/girishlade111/Accio/issues/1"
+  },
+  {
+    "title": "feat(seo): implement dynamic document title, meta descriptions, and OpenGraph tags per route",
+    "category": "SEO & Structured Metadata",
+    "labels": [
+      "seo",
+      "enhancement"
+    ],
+    "url": "https://github.com/girishlade111/Accio/issues/2"
+  },
+  {
+    "title": "fix(a11y): color contrast failures in dark and light themes (WCAG 2.2 AA)",
+    "category": "Accessibility & Color Contrast",
+    "labels": [
+      "accessibility",
+      "bug"
+    ],
+    "url": "https://github.com/girishlade111/Accio/issues/3"
+  },
+  {
+    "title": "fix(a11y): label-content-name-mismatch on ProjectCard links (WCAG 2.5.3)",
+    "category": "Accessibility & ARIA Semantics",
+    "labels": [
+      "accessibility",
+      "bug"
+    ],
+    "url": "https://github.com/girishlade111/Accio/issues/4"
+  },
+  {
+    "title": "fix(a11y): resolve semantic heading level skipping in project gallery (WCAG 1.3.1)",
+    "category": "Accessibility & Heading Structure",
+    "labels": [
+      "accessibility",
+      "bug"
+    ],
+    "url": "https://github.com/girishlade111/Accio/issues/5"
+  },
+  {
+    "title": "fix(ui): touch target sizes below 44x44px for mobile footer and social links (WCAG 2.5.8)",
+    "category": "UI & Mobile Responsiveness",
+    "labels": [
+      "accessibility",
+      "bug"
+    ],
+    "url": "https://github.com/girishlade111/Accio/issues/6"
+  },
+  {
+    "title": "feat(contact): add configurable webhook POST submission and webmail fallback",
+    "category": "Functional & Form Enhancements",
+    "labels": [
+      "enhancement"
+    ],
+    "url": "https://github.com/girishlade111/Accio/issues/7"
+  },
+  {
+    "title": "fix(routing): manage keyboard focus and route-change announcement for screen readers",
+    "category": "Accessibility & Route Transitions",
+    "labels": [
+      "accessibility",
+      "enhancement"
+    ],
+    "url": "https://github.com/girishlade111/Accio/issues/8"
+  }
+]
