@@ -1,0 +1,53 @@
+[
+  {
+    "title": "fix(deploy): missing SPA rewrite configuration for nested routes on Vercel/Netlify (404 on refresh)",
+    "category": "Deployment & Routing",
+    "labels": [
+      "bug",
+      "enhancement"
+    ],
+    "impact": "Direct navigation or browser reload on nested routes (/about, /projects/:slug) returns 404 from host servers without fallback rewrite rules."
+  },
+  {
+    "title": "perf(bundle): implement route-level code splitting with React.lazy and Suspense",
+    "category": "Performance & Optimization",
+    "labels": [
+      "performance",
+      "enhancement"
+    ],
+    "impact": "All 7 route components are bundled into a single monolithic bundle (~483kB JS), increasing initial page load time."
+  },
+  {
+    "title": "fix(a11y): Motion animations do not respect prefers-reduced-motion OS preference",
+    "category": "Accessibility & Motion",
+    "labels": [
+      "accessibility",
+      "bug"
+    ],
+    "impact": "Users with vestibular disorders or reduced-motion OS preferences still experience spring and transform animations."
+  },
+  {
+    "title": "fix(ui): floating navigation lacks safe-area-inset-top for notched and Dynamic Island displays",
+    "category": "UI & Mobile Responsiveness",
+    "labels": [
+      "bug"
+    ],
+    "impact": "On iPhone X+ and mobile devices in PWA/standalone mode, top-6 fixed positioning collides with the notch/status bar."
+  },
+  {
+    "title": "feat(theme): add dynamic meta theme-color updates and multi-tab storage synchronization",
+    "category": "Theme & Mobile UX",
+    "labels": [
+      "enhancement"
+    ],
+    "impact": "Mobile browser address bars do not tint to match dark/light theme, and changing theme in one tab does not update other active tabs."
+  },
+  {
+    "title": "fix(routing): project detail slug lookup is case-sensitive and fails on mixed-case URLs",
+    "category": "Routing & Robustness",
+    "labels": [
+      "bug"
+    ],
+    "impact": "Navigating to /projects/GB-CODER or /projects/Ladestack renders \"Project Not Found\" due to strict case comparison."
+  }
+]

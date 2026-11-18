@@ -1,0 +1,53 @@
+[
+  {
+    "title": "fix(deploy): missing SPA rewrite configuration for nested routes on Vercel/Netlify (404 on refresh)",
+    "category": "Deployment & Routing",
+    "labels": [
+      "bug",
+      "enhancement"
+    ],
+    "url": "https://github.com/girishlade111/Accio/issues/9"
+  },
+  {
+    "title": "perf(bundle): implement route-level code splitting with React.lazy and Suspense",
+    "category": "Performance & Optimization",
+    "labels": [
+      "performance",
+      "enhancement"
+    ],
+    "url": "https://github.com/girishlade111/Accio/issues/10"
+  },
+  {
+    "title": "fix(a11y): Motion animations do not respect prefers-reduced-motion OS preference",
+    "category": "Accessibility & Motion",
+    "labels": [
+      "accessibility",
+      "bug"
+    ],
+    "url": "https://github.com/girishlade111/Accio/issues/11"
+  },
+  {
+    "title": "fix(ui): floating navigation lacks safe-area-inset-top for notched and Dynamic Island displays",
+    "category": "UI & Mobile Responsiveness",
+    "labels": [
+      "bug"
+    ],
+    "url": "https://github.com/girishlade111/Accio/issues/12"
+  },
+  {
+    "title": "feat(theme): add dynamic meta theme-color updates and multi-tab storage synchronization",
+    "category": "Theme & Mobile UX",
+    "labels": [
+      "enhancement"
+    ],
+    "url": "https://github.com/girishlade111/Accio/issues/13"
+  },
+  {
+    "title": "fix(routing): project detail slug lookup is case-sensitive and fails on mixed-case URLs",
+    "category": "Routing & Robustness",
+    "labels": [
+      "bug"
+    ],
+    "url": "https://github.com/girishlade111/Accio/issues/14"
+  }
+]
